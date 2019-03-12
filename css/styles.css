@@ -1,0 +1,111 @@
+body {
+	background-color: beige;
+	font-size: 1rem;
+	font-family: 'Roboto', sans-serif;
+	line-height: 0.3;
+	text-decoration: none;
+	color: black;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 4em;
+	text-align: center;
+	color: darkgreen;
+}
+
+
+p {
+	font-family: 'Roboto', sans-serif;
+    color: darkgreen;
+    text-align: center;
+}
+
+#shopping {
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif; 
+}
+
+input, button {
+    width: 100%;
+    margin: 1em 0;
+    padding: 1em 0;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+	background-color: darkgreen;
+	color: #DCDAF1;
+}
+
+
+ul {
+	font-size: 1rem;
+	list-style-type: none;
+  	display: flex;
+	justify-content: space-around;
+	padding: 2em 0;
+	margin: 1em auto;
+  	width: 100%;
+
+}
+
+#userIn {
+	padding: 1em 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#displayD {
+	width: 100%;
+	margin: 1em auto;
+	font-size: 1rem;
+	background-color: lightgrey;
+	display: block;
+}
+
+
+#displayD li {
+    width: 2px;
+    margin: 2rem 0;
+    margin-left: 4rem;
+    font-size: 1em;
+}
+
+.error {
+    color: green;
+    border: black solid 6px;
+    padding: 2em 0;
+    text-align: center;
+    display: none;
+}
+
+a {
+	font-size: 2rem;
+	text-align: center;
+	padding: 0.5em 0;
+	text-decoration: none;
+	color: #181542;
+}
+
+a:hover {
+  background-color: #181542;
+  color: #DCDAF1;
+}
+
+@media only screen and (min-width: 35rem) {
+
+body {
+	font-size: 1.2rem;
+}
+
+#shopping {
+    max-width: 45rem;
+}
+
+ul {
+	width: 50%;
+}
+
+}
